@@ -14,16 +14,16 @@ This repository provides the initial setup for FluxCD and incorporates additiona
 export GITHUB_TOKEN=<gh-token>
 flux bootstrap github \
   --token-auth \
-  --owner=brainfair \
+  --owner=rvvg \
   --repository=awesome-flux-head \
   --branch=main \
-  --path=clusters/homelab \
+  --path=clusters/spot-rackspace-demo-1 \
   --personal
 ```
 
 ## Additional repositories
-- [CRD GitOps repository](https://github.com/brainfair/awesome-flux-crds)
-- [Infra GitOps repository](https://github.com/brainfair/awesome-flux-infra)
+- [CRD GitOps repository](https://github.com/rvvg/awesome-flux-crds)
+- [Infra GitOps repository](https://github.com/rvvg/awesome-flux-infra)
 
 ## Architecture
 
